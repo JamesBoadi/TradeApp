@@ -1,0 +1,114 @@
+
+
+#lineGraph
+{
+  /* visibility: hidden;*/
+   position: "fixed";
+   
+   transform: translate(-650px, 500px);
+}
+
+
+.background{
+
+  background-color:darkslategrey;
+ 
+}
+
+
+#border{
+transform: translate(0px, 100px);
+border-style: ridge;
+/*width: 400px;*/
+height: 350px;
+}
+
+#multiplier
+{
+  width: 60px;
+
+}
+
+#rowColour{
+  background-color: #00008b;
+}
+
+#name
+{
+  float: right;
+  color: black;
+}
+
+#equity
+{
+  float: right;
+  color: black;
+}
+
+#profitloss
+{
+
+  float: right;
+  color: black;
+}
+
+
+#bar
+{
+
+}
+
+#main-container{
+
+}
+
+#col-1{
+  height: 100%;
+ 
+}
+
+#col-2{
+  height: 100%;
+
+}
+
+#col-3{
+  height: 100%;
+}
+
+#col-4{
+  height: 100%;
+}
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color:#00008b; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 10px 12px 14px 20px; 
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+

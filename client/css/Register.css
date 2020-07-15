@@ -1,0 +1,64 @@
+
+body
+{ 
+  
+}
+
+
+.background{
+  background-color:darkslategrey;
+  width: '500px';
+  height: '500px';
+}
+
+#name
+{
+  background-color: yellow;
+  color: black;
+}
+
+#email
+{
+  background-color: yellow;
+  color: black;
+}
+
+#password
+{
+  background-color: yellow;
+  color: black;
+}
+
+.home #form
+{   display: inline-block;
+  height: 300px;
+  width: 300px;
+
+  position: fixed;
+  background-color: black;   /* transform: translate(-75px, 150px); */
+}
+
+
+.home #title
+{
+ display: inline-block;
+ color: whitesmoke;
+ font: Serif;
+ font-weight: bold;
+
+ /*transform: translate(-300px, 0px);*/
+ position: fixed;
+}
+
+.home .square{
+    height: 40px;
+    width: 50px;
+    color: #add8e6;
+  
+}
+
+
+
+
+
+/*Create a folder for css files */

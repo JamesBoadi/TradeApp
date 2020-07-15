@@ -1,0 +1,44 @@
+{
+  "name": "tothisday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "proxy": [
+    "http://localhost:3001",
+    "http://localhost:7054"
+  ],
+  "dependencies": {
+    "apexcharts": "^3.18.0",
+    "bootstrap": "^3.4.1",
+    "check-node-version": "^4.0.2",
+    "express": "^4.17.1",
+    "fabric-contract-api": "^2.0.0",
+    "fabric-shim": "^2.0.0",
+    "pbkdf2-sha256": "^1.1.1",
+    "react": "^16.12.0",
+    "react-apexcharts": "^1.3.7",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "server": "node index/server.js",
+    "dev": "run-p server start",
+    "stop": "concurrently --kill-others \"npm run server\" \"npm run start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.0-beta.0",
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack-dev-server": "^3.10.1",
+    "ws": "3.3.2"
+  }
+}

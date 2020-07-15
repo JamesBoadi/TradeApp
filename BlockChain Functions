@@ -1,0 +1,7 @@
+peer chaincode invoke -o orderer.example.com:7050 -C mychannel -n mycc -c '{"function":"utilityContract:createTrader","Args":["florian","50000","82939h756a"]}'
+peer chaincode invoke -o orderer.example.com:7050 -C mychannel -n mycc -c '{"function":"utilityContract:setCommission","Args":["60"]}'
+peer chaincode query -o orderer.example.com:7050 -C mychannel -n mycc -c '{"function":"traderContract:getTransactions","Args":["Bob"]}'
+peer chaincode invoke -o orderer.example.com:7050 -C mychannel -n mycc -c '{"function":"traderContract:orderTransact","Args":["100","20","put","82939h756a"]}'
+
+
+
