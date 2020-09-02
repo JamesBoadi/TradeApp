@@ -14,12 +14,12 @@ This app requires the following folders to run
 #### Client 
 
 -  client
-        -  images
+  -  images
         -  index
-                -  server.js
-                -  client.js
-        -  node_modules
-        -  wallet
+          -  server.js
+          -  client.js
+   -  node_modules
+   -  wallet
 
 Missing packages:
 
