@@ -5,11 +5,11 @@ This app requires the following folders to run
 #### App 
 
 -  App 
-        -  basic-network
-        -  bin
-        -  chaincode
-        -  client
-        -  git
+  -  basic-network
+  -  bin
+  -  chaincode
+  -  client
+  -  git
 
 #### Client 
 
