@@ -14,7 +14,7 @@ This app requires the following folders to run
 #### Client 
 
 -  client
-    -  index
+   -  index
       -  server.js
       -  client.js
    -  images
