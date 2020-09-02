@@ -15,9 +15,9 @@ This app requires the following folders to run
 
 -  client
   -  images
-        -  index
-          -  server.js
-          -  client.js
+    -  index
+      -  server.js
+      -  client.js
    -  node_modules
    -  wallet
 
